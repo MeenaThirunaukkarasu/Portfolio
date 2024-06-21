@@ -2,28 +2,37 @@
     min-height: calc(100vw - 4rem);
     width: 100vw;
     max-width: 60rem;
-    margin: o auto;
+    margin: 0 auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 2rem; 
+    box-sizing: border-box;
+    margin-top: 4rem;
 }
 
 .contactPageTitle {
     font-size: 3rem;
     margin-bottom: 1rem;
+    margin-top: 5rem;
+
 }
 
 .clientDesc {
    font-weight: 300;
    font-size: 1rem; 
-}
+   margin-top: 0.5rem;
+   margin-bottom: 1rem;
 
+}
+  
 .clientImgs {
     margin: 1rem 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .clientImg {
     object-fit: cover;
@@ -34,7 +43,9 @@
 }
 
 #clients {
-    padding: 1rem;
+    padding: 6rem 1rem 1rem 1rem;
+    margin-top: 25rem;
+    margin-bottom: 4rem;
 }
 
 .contactDesc {
@@ -62,7 +73,8 @@
    color: white;
    border: none;
    border-radius: 0.5rem;
-    background: rgb(40, 40, 40);
+   background: rgb(40, 40, 40);
+   box-sizing: border-box;
 }
 
 .submitBtn {

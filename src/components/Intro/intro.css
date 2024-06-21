@@ -1,22 +1,26 @@
 #intro{
-    height: calc(100vh-4rem);
+    height: calc(100vh - 10rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
     overflow: hidden;
+    position: relative;
 }
 
 .bg {
     position: absolute;
-    top: -4rem;
-    right: 0;
+    top: 30%; 
+    right: 3rem; 
+    transform: translateY(-30%); 
     z-index: -1;
-    object-fit: cover;
-    height: 100vh;
+    object-fit: contain;
+    width: 30%; 
+    max-width: 15rem; 
+    height: auto; 
 }
 
 .introContent {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     padding: 2rem;
     font-size: 3rem;
@@ -54,9 +58,10 @@
     margin: 0 0.25rem;
     height: 1rem;
 }
+
 @media screen and (max-width:840px) {
     .bg {
-        right: -10vw;
+        right: -5vw;
     }
     .introContent {
         font-size: 10vw;
